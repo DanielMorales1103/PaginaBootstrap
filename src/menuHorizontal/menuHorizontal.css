@@ -1,0 +1,47 @@
+.menu-horizontal {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+  
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(13, 110, 253);
+}
+.menu-item:hover{
+    color: rgb(10, 88, 202);
+}
+  
+.selected {
+    background-color: rgb(13, 110, 253);
+    color: white;
+}
+
+.menu-horizontal2 {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 1%;
+    background-color: rgb(13, 110, 253);
+    border-radius: 50px;
+    margin-right: 5%;
+}
+  
+.menu-item2 {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(193, 193, 193);
+    width: 30%;
+}
+.menu-item2:hover{
+    color: rgb(216, 216, 216);
+}
+  
+.selected2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 110, 253);
+}

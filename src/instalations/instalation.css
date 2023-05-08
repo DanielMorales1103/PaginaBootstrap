@@ -1,0 +1,118 @@
+.ClipBoard{
+    width: 40px;
+    height: 45px;
+    transition: transform 0.3s ease-in-out;
+}
+.ClipBoard:hover{
+    transform: scale(1.1);
+}
+.FirstInstalation{
+    background-color: rgb(233, 230, 236);
+    width: 26%;
+    height: 60px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    align-items: center;
+    margin-left: 28.5%;
+}
+.Instalation2{
+    background-color: rgb(233, 230, 236);
+    width: 92%;
+    height: 60px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Dollar{
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: rgb(86, 92, 100);
+}
+.FirstText{
+    color: rgb(33, 37, 41);
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+.Itext2{
+    color: rgb(33, 37, 41);
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+.CopyElement{
+    margin-left: auto;
+    margin-right: 1.5%;
+    cursor: pointer;
+} 
+
+.PopMessage1{
+    position: relative;
+    top: -27px;
+    left: -6%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.Triangle1{
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid black;
+    left: -11.3%;
+    transform: rotate(180deg);
+}
+
+.PopMessage2{
+    position: absolute;
+    top: 229%;
+    left: 40.2%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.Triangle2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid black;
+    top: 232.5%;
+    left: 43.3%;
+    transform: rotate(180deg);
+}
+.PopMessage3{
+    position: absolute;
+    top: 243%;
+    left: 40.2%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.Triangle3{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid black;
+    top: 246.5%;
+    left: 43.3%;
+    transform: rotate(180deg);
+}
+

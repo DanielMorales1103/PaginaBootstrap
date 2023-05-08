@@ -1,0 +1,131 @@
+.CopyText1{
+    background-color: rgb(233, 230, 236);
+    width: 92%;
+    height: auto;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    margin-left: 2%;
+    margin-top: 4.8%;
+    padding-top: 15px;
+    padding-bottom: 5px; 
+}
+.ClipBoardimg{
+    width: 40px;
+    /* height: 45px; */
+    transition: transform 0.3s ease-in-out;
+    top: -50%;
+}
+.ClipBoardimg:hover{
+    transform: scale(1.1);
+}
+.imgPop1{
+    position: absolute;
+    top: 384%;
+    left: 41.7%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.imgTri1{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    top: 388.2%;
+    left: 45.3%;
+    transform: rotate(180deg);
+}
+.imgPop2{
+    position: absolute;
+    top: 384%;
+    left: 90.5%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.imgTri2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    top: 388.2%;
+    left: 94%;
+    transform: rotate(180deg);
+}
+.imgPop3{
+    position: absolute;
+    top: 568%;
+    left: 41.7%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.imgTri3{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    top: 572.4%;
+    left: 45.3%;
+    transform: rotate(180deg);
+}
+.imgPop4{
+    position: absolute;
+    top:  568%;
+    left: 90.5%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.imgTri4{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    top: 572.3%;
+    left: 94%;
+    transform: rotate(180deg);
+}
+.imgPop5{
+    position: absolute;
+    top:  713%;
+    left: 90.5%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.imgTri5{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    top: 717.3%;
+    left: 94%;
+    transform: rotate(180deg);
+}

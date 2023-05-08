@@ -1,0 +1,58 @@
+.LogoMorado{
+    width: 12%;
+    height: 12%;
+}
+.LogoBlanco{
+    height: 38px;
+    width: 47px;
+    transition: transform 0.3s ease-in-out;
+}
+.ImgIconos{
+    height: 38px;
+    width: 90px;
+    margin-right: 0%;
+}
+.LogoBlanco:hover{
+    transform: rotate(-10deg) scale(1.1);
+}
+.ImagenText{
+    border-radius: 10px;
+    width: 30%;
+    height: 25%;
+}
+.WebPack{
+    width: 70%;
+    transition: transform 0.3s ease-in-out;
+}
+.Parcel{
+    width: 75%;
+    transition: transform 0.3s ease-in-out;
+}
+.Vite{
+    width: 77%;
+    transition: transform 0.3s ease-in-out;
+}
+.WebPack:hover{
+    transform: scale(1.1);
+}
+.Parcel:hover{
+    transform: scale(1.1);
+}
+.Vite:hover{
+    transform: scale(1.1);
+}
+.TextImg1{
+    width: 80%;
+    margin-left: 5%;
+}
+.TextImg2{
+    width: 90%;
+    margin-left: 5%;
+}
+.TextImg5{
+    width: 90%;
+    margin-left: 5%;
+}
+.LogoNegro{
+    width: 72%;
+}

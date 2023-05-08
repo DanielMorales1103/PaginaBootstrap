@@ -1,0 +1,132 @@
+.ClipBoard{
+    width: 40px;
+    height: 45px;
+    transition: transform 0.3s ease-in-out;
+}
+.ClipBoard:hover{
+    transform: scale(1.1);
+}
+.CopyLink1{    
+    background-color: rgb(233, 230, 236);
+    width: 92%;
+    height: 60px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 4.8%;
+    padding-top: 15px;
+    padding-bottom: 5px; 
+}
+.CopyLink2{        
+    background-color: rgb(233, 230, 236);
+    width: 92%;
+    height: 60px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 3.3%;
+    padding-top: 15px;
+    padding-bottom: 5px; 
+}
+.CopyLink3{        
+    background-color: rgb(233, 230, 236);
+    width: 92%;
+    height: auto;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    margin-left: 2%;
+    margin-top: 3.3%;
+    padding-top: 15px;
+    padding-bottom: 5px; 
+}
+.TCopy1{
+    width: 85%;
+    margin-left: 5%;
+    color: rgb(33, 37, 41);
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-right: 5px;
+}
+.Pop1{
+    position: absolute;
+    top: 234.3%;
+    left: 84.5%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.Tri1{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    top: 235.9%;
+    left: 92.6%;
+    transform: rotate(90deg);
+}
+.Pop2{
+    position: absolute;
+    top: 249.5%;
+    left: 84.5%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.Tri2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    top: 251.1%;
+    left: 92.6%;
+    transform: rotate(90deg);
+}
+.Pop3{
+    position: absolute;
+    top: 736.5%;
+    left: 43.5%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.Tri3{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    top: 741%;
+    left: 46.9%;
+    transform: rotate(180deg);
+}
+.pos1{
+    margin-top: -2%;;
+}
+.pos2{
+    margin-top: -2%;
+    margin-left: 3.5%;
+}
+.pos3{
+    margin-top: -2%;
+    margin-left: 7%;
+}

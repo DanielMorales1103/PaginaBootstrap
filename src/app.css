@@ -1,0 +1,153 @@
+body{
+    background-image: linear-gradient(to right, rgb(125, 170, 236), rgb(241, 229, 184));    
+
+}
+.Contenido{
+    margin-top: 4.3%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.Contenido2{
+    margin-top: 3%;
+    justify-content: center;
+    display: flex;
+}
+.Contenido3{
+    margin-top: 2%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.Contenido4{
+    margin-top: 1%;
+    display: flex;
+}
+.Contenido5{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.ContenidoImagen{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.ContenidoImagen2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.Contenido6{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+.Contenido7{
+    margin-top: 3%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.InstalationsDocs{
+    margin-top: 3%;
+    justify-content: center;
+    display: flex;
+}
+.Contenido8{
+    display: flex;
+    margin-top: 3%;
+}
+.Izquierda, 
+.Derecha{
+    width: 50%;
+    height: auto;
+    padding-bottom: 2%;
+}
+.Izquierda{
+    border-right: 1px solid rgb(222, 226, 230);
+    margin-left: 2.5%;
+}
+.Derecha{
+    margin-left: 1%;
+}
+.Contenido9{
+    margin-top: 2%;
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
+.ContImagenes{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.subContainer{
+    width: auto;
+    height: 100px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Contenido10{
+    margin-top: 7%;
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: column;
+}
+.ContainerFlecha{
+    margin-top: 1.5%;
+    display: flex;
+}
+.ContainerFlechader{
+    margin-top: 1.5%;
+    display: flex;
+    margin-left: 2%;
+}
+.Contenido11{
+    display: flex;
+    margin-top: 3%;
+}
+.Izquierda2, 
+.Derecha2{
+    width: 50%;
+    height: auto;
+    padding-bottom: 2%;
+}
+.Izquierda2{
+    margin-left: 2.5%;
+}
+.Derecha2{
+    margin-left: 1%;
+}
+.Contenido12{
+    display: flex ;
+    margin-top: 8%;
+    margin-left: 3%;
+}
+.Contenido13{
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: column;
+}
+.Contenido14{
+    display: flex;
+    margin-top: 3%;
+}
+.ContainerMenus{
+    margin-left: 2%;
+    border: 1px solid rgb(222, 226, 230);
+    height: auto;
+    border-radius: 15px;
+    margin-right: 5%;
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+.Contenido15{
+    margin-top: 4%;
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: column;
+}
