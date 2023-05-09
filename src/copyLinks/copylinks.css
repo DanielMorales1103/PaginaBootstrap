@@ -99,7 +99,7 @@
 }
 .Pop3{
     position: absolute;
-    top: 736.5%;
+    top: 739.5%;
     left: 43.5%;
     background-color: black;
     color: white;
@@ -115,7 +115,7 @@
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid black;
-    top: 741%;
+    top: 744%;
     left: 46.9%;
     transform: rotate(180deg);
 }
@@ -132,7 +132,7 @@
 }
 .Pop4{
     position: absolute;
-    top: 901%;
+    top: 905%;
     left: 43.5%;
     background-color: black;
     color: white;
@@ -148,7 +148,7 @@
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid black;
-    top: 905.3%;
+    top: 909.3%;
     left: 46.9%;
     transform: rotate(180deg);
 }

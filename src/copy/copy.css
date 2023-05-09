@@ -21,7 +21,7 @@
 }
 .imgPop1{
     position: absolute;
-    top: 384%;
+    top: 387%;
     left: 41.7%;
     background-color: black;
     color: white;
@@ -37,13 +37,13 @@
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid black;
-    top: 388.2%;
+    top: 391.2%;
     left: 45.3%;
     transform: rotate(180deg);
 }
 .imgPop2{
     position: absolute;
-    top: 384%;
+    top: 387%;
     left: 90.5%;
     background-color: black;
     color: white;
@@ -59,13 +59,13 @@
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid black;
-    top: 388.2%;
+    top: 391.2%;
     left: 94%;
     transform: rotate(180deg);
 }
 .imgPop3{
     position: absolute;
-    top: 568%;
+    top: 571%;
     left: 41.7%;
     background-color: black;
     color: white;
@@ -81,13 +81,13 @@
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid black;
-    top: 572.4%;
+    top: 575.4%;
     left: 45.3%;
     transform: rotate(180deg);
 }
 .imgPop4{
     position: absolute;
-    top:  568%;
+    top:  571%;
     left: 90.5%;
     background-color: black;
     color: white;
@@ -103,13 +103,13 @@
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid black;
-    top: 572.3%;
+    top: 575.4%;
     left: 94%;
     transform: rotate(180deg);
 }
 .imgPop5{
     position: absolute;
-    top:  713%;
+    top:  716.5%;
     left: 90.5%;
     background-color: black;
     color: white;
@@ -125,7 +125,7 @@
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid black;
-    top: 717.3%;
+    top: 720.9%;
     left: 94%;
     transform: rotate(180deg);
 }
