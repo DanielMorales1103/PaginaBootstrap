@@ -71,3 +71,25 @@
 .imgEnchufe{
     width: 63%;
 }
+.CircleSquare{
+    width: 8%;
+    background-color: rgb(232, 249, 244);
+    padding-left: 1.6%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-radius: 25%;
+}
+.ImgCircleSquare{
+    width: 70%;
+}
+.Gota{
+    width: 8%;
+    background-color: rgb(241, 233, 254);
+    padding-left: 2.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-radius: 25%;
+}
+.ImgGota{
+    width: 62%;
+}

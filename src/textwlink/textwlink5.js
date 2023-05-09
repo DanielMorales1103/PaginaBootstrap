@@ -3,7 +3,7 @@ import './textwlink.css'
 
 export default function TextLink5(props){
     return(
-        <div className='contTextOut'>
+        <div className={props.clase}>
             <p className='normalText'>
             {props.firstText}
             <span className='linked'>{props.linkedText}</span>

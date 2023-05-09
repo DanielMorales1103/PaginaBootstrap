@@ -154,6 +154,30 @@
     white-space: pre-wrap;
     padding-right: 40%;
 }
+.Customize2{
+    margin-top: 2%;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    font-size: calc(1.425rem + 2.1vw);
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 600;
+    text-align: left;
+    white-space: pre-wrap;
+    padding-right: 37%;
+}
+.Customize3{
+    margin-top: 2%;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    font-size: calc(1.425rem + 2.1vw);
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 600;
+    text-align: left;
+    white-space: pre-wrap;
+    padding-right: 0%;
+}
 .subTextCust{
     margin-top: 1.5%;
     font-size: 1.25rem;
