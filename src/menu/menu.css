@@ -80,3 +80,51 @@
 .blockList{
     border-bottom: 1px solid rgb(210, 210, 210);
 }
+.menu-container3 {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-right: 1px solid rgb(150, 100, 250);
+    border-left: 1px solid rgb(150, 100, 250);
+    background-color: rgb(12, 101, 236);
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
+} 
+.menu-container3:hover{
+    background-color: rgb(11, 94, 215);
+    color: rgb(255, 252, 252);
+}
+.menu-list3 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+.options3{
+    color: black;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    white-space: nowrap;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 120px;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.options3:hover{
+    background-color: rgb(248, 249, 250);
+}

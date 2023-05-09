@@ -176,7 +176,8 @@
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
-    padding-right: 50px;
+    /* padding-right: 50px; */
+    padding-right: 15%;
     margin-left: 2%;
     margin-top: 1.5%;
     white-space: pre-wrap;
@@ -192,6 +193,19 @@
 .FooterTitle{
     font-size: 1.25rem;
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    margin-top: 4.7%;
-    margin-left: 5%;
+    margin-top: 2.1%;
+    margin-left: 3%;
+}
+.TextoFooterNlink{
+    font-size: .875em;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    white-space: pre-wrap;
+    color : rgb(87, 91, 94);
+    padding-right: 25%;
+}
+.SecondFooterTitle{
+    font-weight: 500;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.25rem;
+    color: rgb(87, 91, 94);
 }

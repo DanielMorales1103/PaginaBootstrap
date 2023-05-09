@@ -130,3 +130,25 @@
     margin-top: -2%;
     margin-left: 7%;
 }
+.Pop4{
+    position: absolute;
+    top: 901%;
+    left: 43.5%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.Tri4{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    top: 905.3%;
+    left: 46.9%;
+    transform: rotate(180deg);
+}

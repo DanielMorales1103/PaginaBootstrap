@@ -5,12 +5,37 @@
     padding: 20px;
     display: flex;
 }
+.TitleContainer{
+    display: flex;
+    width: 50%;
+}
 .ContainerFooter1{
     display: flex;
     flex-direction: column;
     margin-top: 3%;
     margin-left: 6%;
-}
-.TitleContainer{
+    width: 30%;
+}   
+.ContainerFooter2{
+    margin-top: 3%;
+    margin-left: 3%;
     display: flex;
+    flex-direction: column;
+}
+.ContainerFooter3{
+    margin-top: 3%;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+}
+.footerlink{
+    color: black;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.footerlink:hover{
+    color: rgb(10, 154, 224);
+    text-decoration: underline;
 }

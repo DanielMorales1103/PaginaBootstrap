@@ -29,6 +29,7 @@ import Llaves from "./imagenes/Llaves.png";
 import TextLink4 from './textwlink/textwlink4';
 import TextnLink from './textwlink/textwnlink';
 import books from "./imagenes/books.png";
+import Menu3 from "./menu/menu3";
 import LlavesAst from "./imagenes/LlavesAst.png";
 import TextLink5 from './textwlink/textwlink5';
 import TextLink6 from './textwlink/textwlink6';
@@ -37,10 +38,13 @@ import MenuHorizontal2 from './menuHorizontal/menuHorizontal2';
 import CopylinksManual from './copyLinks/copylinksManual';
 import Enchufe from "./imagenes/Enchufe.png";
 import CreateFooter from './footer/footer';
+import CopylinksManual2 from './copyLinks/copylinksManual2';
+import TextLink7 from './textwlink/textwlink7';
+import CreatePlugin from './plugins/plugins';
 import './app.css'
 
 export default function CreateApp(){    
-
+    const Dropdown = [{modo: 'Dropdown item'},{modo: 'Dropdown item'},{modo: 'Dropdown item'}];
     return(
         <>  
             <CreateHeader/>
@@ -222,7 +226,74 @@ export default function CreateApp(){
                         <Object clase={'Instalationflecha'} text={'→'}></Object>
                     </div> 
                 </div>
-                
+                <div className='Contenido16'>
+                    <div className='Izquierda2'>
+                        <Object clase={'BoxTitle'} text={'Data attribute API'}></Object>
+                        <Object clase={'BoxSubTitle'} text={"Why write more JavaScript when you can write HTML? Nearly all of Bootstrap's JavaScript plugins feature a first-class data API, allowing you to use JavaScript just by adding data attributes."}></Object>
+                        <div className='ContainerDropdown'>
+                            <Menu3 inicio={'Dropdown ⏷'} elements={Dropdown}/>
+                        </div>
+                        <CopylinksManual2 clase={'CopyLink3'} textclase={'TCopy1'}
+                            pop={'Pop4'} tri={'Tri4'}>                            
+                        </CopylinksManual2>
+                        <TextLink7></TextLink7>
+                    </div>
+                    <div className='Derecha2'>
+                        <Object clase={'BoxTitle'} text={'Comprehensive set of plugins'}></Object>
+                        <Object clase={'BoxSubTitle'} text={"Bootstrap features a dozen plugins that you can drop into any project. Drop them in all at once, or choose just the ones you need"}></Object>
+                        <div className='PluginsCointainer'>
+                            <div className='plugininterno'>
+                                <div className='izquierdaInterno'>
+                                    <CreatePlugin title={'Alert'} text={'Show and hide alert messages to your users.'}></CreatePlugin>
+                                </div>
+                                <div className='derechaInterno'>
+                                    <CreatePlugin title={'Button'} text={'Programmatically control the active state for buttons.'}></CreatePlugin>
+                                </div>
+                            </div>
+                            <div className='plugininterno'>
+                                <div className='izquierdaInterno'>
+                                    <CreatePlugin title={'Carousel'} text={'Add slideshows to any page, including support for crossfade.'}></CreatePlugin>
+                                </div>
+                                <div className='derechaInterno'>
+                                    <CreatePlugin title={'Collapse'} text={'Expand and collapse areas of content, or create accordions.'}></CreatePlugin>
+                                </div>
+                            </div>
+                            <div className='plugininterno'>
+                                <div className='izquierdaInterno'>
+                                    <CreatePlugin title={'Dropdown'} text={'Create menus of links, actions, forms, and more.'}></CreatePlugin>
+                                </div>
+                                <div className='derechaInterno'>
+                                    <CreatePlugin title={'Modal'} text={'Add flexible and responsive dialogs to your project'}></CreatePlugin>
+                                </div>
+                            </div>
+                            <div className='plugininterno'>
+                                <div className='izquierdaInterno'>
+                                    <CreatePlugin title={'Offcanvas'} text={'Build and toggle hidden sidebars into any page.'}></CreatePlugin>
+                                </div>
+                                <div className='derechaInterno'>
+                                    <CreatePlugin title={'Popover'} text={'Create custom overlays. Built on Popper.'}></CreatePlugin>
+                                </div>
+                            </div>
+                            <div className='plugininterno'>
+                                <div className='izquierdaInterno'>
+                                    <CreatePlugin title={'Scrollspy'} text={'Automatically update active nav links based on page scroll'}></CreatePlugin>
+                                </div>
+                                <div className='derechaInterno'>
+                                    <CreatePlugin title={'Tab'} text={'Allow Bootstrap nav components to toggle contents.'}></CreatePlugin>
+                                </div>
+                            </div>
+                            <div className='plugininterno'>
+                                <div className='izquierdaInterno'>
+                                    <CreatePlugin title={'Toast'} text={'Show and hide notifications to your visitors'}></CreatePlugin>
+                                </div>
+                                <div className='derechaInterno'>
+                                    <CreatePlugin title={'Tooltip'} text={'Replace browser tooltips with custom ones. Built on Popper.'}></CreatePlugin>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
             <CreateFooter/>
         </>
