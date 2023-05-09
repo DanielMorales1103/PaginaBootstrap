@@ -11,9 +11,9 @@ En este proyecto, se utilizaron las siguientes tecnologías:
 
 ## Requisitos
 
--Tener un editor de códogo (Recomendado VIsualStudio Code)
--Tener NODE en conjunto npm instalado
--Acceso a un navegador web
+- Tener un editor de códogo (Recomendado VIsualStudio Code)
+- Tener NODE en conjunto npm instalado
+- Acceso a un navegador web
 
 ## Instalación
 Intalar paquetes necesarios
